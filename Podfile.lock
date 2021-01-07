@@ -1,0 +1,120 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bugly (2.5.0)
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - DZNEmptyDataSet (1.8.1)
+  - FLAnimatedImage (1.0.12)
+  - IQKeyboardManager (6.1.1)
+  - JPFPSStatus (0.1.1)
+  - KissXML (5.2.2)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.3)
+  - ReactiveCocoa (2.5.2):
+    - ReactiveCocoa/UI (= 2.5.2)
+  - ReactiveCocoa/Core (2.5.2):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5.2)
+  - ReactiveCocoa/UI (2.5.2):
+    - ReactiveCocoa/Core
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - XHLaunchAd (3.9.7):
+    - FLAnimatedImage (~> 1.0.12)
+  - XMPPFramework (3.7.0):
+    - CocoaAsyncSocket (~> 7.6.0)
+    - CocoaLumberjack
+    - KissXML (~> 5.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - Bugly
+  - DZNEmptyDataSet
+  - IQKeyboardManager (from `https://github.com/hackiftekhar/IQKeyboardManager.git`)
+  - JPFPSStatus
+  - Masonry (~> 1.1.0)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.12)
+  - ReactiveCocoa (from `https://github.com/zhao0/ReactiveCocoa.git`, tag `2.5.2`)
+  - SDWebImage (~> 4.0)
+  - "UITableView+FDTemplateLayoutCell"
+  - XHLaunchAd
+  - XMPPFramework
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Bugly
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - DZNEmptyDataSet
+    - FLAnimatedImage
+    - JPFPSStatus
+    - KissXML
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - "UITableView+FDTemplateLayoutCell"
+    - XHLaunchAd
+    - XMPPFramework
+
+EXTERNAL SOURCES:
+  IQKeyboardManager:
+    :git: https://github.com/hackiftekhar/IQKeyboardManager.git
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+CHECKOUT OPTIONS:
+  IQKeyboardManager:
+    :commit: 3b2f4dd8fc46a32a4c05c2d9249fe13caa161790
+    :git: https://github.com/hackiftekhar/IQKeyboardManager.git
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  JPFPSStatus: 03f32aa3d4d7d0c5bf56f6f3e7cf8b7280a5f52c
+  KissXML: 4418f32138aec43797891845d682b00fc8cd4677
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  ReactiveCocoa: 3ff25b1bd992ac79c5c79b26b6c0c1713b715bb2
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  XHLaunchAd: 0dc50c5af00ee5d9e734b9dce6eece7acaa71122
+  XMPPFramework: 6f99ad1afcdb0cdbec7192a8e4c542c3fc3de6f8
+
+PODFILE CHECKSUM: 47c6c790ed86166b82dcd386b79823c5ab9cf14a
+
+COCOAPODS: 1.5.0
